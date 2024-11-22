@@ -1,15 +1,11 @@
 package com.chat.server.client;
 
-import org.glassfish.jersey.internal.jsr166.Flow;
-import reactor.netty.http.client.*;
-
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
-import java.util.concurrent.CompletionStage;
 
 public class ChatClient {
 
